@@ -1,0 +1,9 @@
+Virtual Wall.
+
+Slim virtual wall units for Roomba. (These cannot be used as light houses, since they are using a currently unknown protocol over zigbee.)
+A virtual wall simply emits a 500Hz pulse over a 38kHz carrier using an IR led. The signal is not very sensitive. I have used a 940nm led and played around with the pulse and carrier frequencies and they can vary quite a bit and still be picked up by the Roomba.
+
+The IR beam is rather wide and seems to bounce off surfaces, so care should be taken to adjust the strength, by adjusting the resistor in series with the led, and to shield off the led to make the beam narrower. I have embedded the led deeply into the door post, but other solutions are possible.
+
+As both the msp430 and the hc08 versions are powered by a wall wart, I have put no consideration into power saving. I'm sure there is a lot of room for improvement, should the design be changed to battery or solar power source.
+
