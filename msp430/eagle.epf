@@ -321,10 +321,11 @@ UsedLibrary="/home/roni/.eagle/lbr/xilinx-xc9.lbr"
 UsedLibrary="/home/roni/.eagle/lbr/xilinx-xcv.lbr"
 UsedLibrary="/home/roni/.eagle/lbr/zetex.lbr"
 UsedLibrary="/home/roni/.eagle/lbr/zilog.lbr"
+UsedLibrary="/projects/tools/eagle/add_on_lbr/TI_MSP430_v15.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="691 78 1290 477"
+Loc="507 102 1294 501"
 State=2
 Number=0
 
